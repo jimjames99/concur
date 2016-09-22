@@ -1,0 +1,28 @@
+development: &defaults
+  # Tell JDBC MySQL driver to auto-reconnect even though reconnect above should have the same effect
+  # http://dev.mysql.com/doc/connector-j/en/connector-j-reference-configuration-properties.html
+  autoReconnect: true
+  # Allow columns to be truncated quietly when the data exceeds the size of the column
+  jdbcCompliantTruncation: false
+  # Must explicitly set useSSL as of MySQL 5.7
+  useSSL:           false
+  encoding:         utf8
+  adapter:          mysql2
+  host:             127.0.0.1
+  checkout_timeout: 2
+  reconnect:        true
+  # insure no problems using LOAD DATA LOCAL INFILE - used by ofac gem
+  local_infile:     true
+  # Allow columns to be truncated quietly when the data exceeds the size of the column
+  strict:           false
+  username: clarity
+  password: clarityrules
+  pool:     10
+  database: clarity_development
+
+test:
+  <<:       *defaults
+  username: clarity
+  password: clarityrules
+  pool:     10
+  database: clarity_transaction_test
