@@ -4,7 +4,3 @@ Sample app to reproduce Arel#count issue with multithreading.
 
 
 * look at test/models/group_test.rb
-
-
-Please feel free to use a different markup language if you do not plan to run
-<tt>rake doc:app</tt>.
