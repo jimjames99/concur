@@ -11,7 +11,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20160906174439) do
+ActiveRecord::Schema.define(version: 20160922155039) do
 
   create_table "groups", force: true do |t|
     t.string   "name",                              limit: 255
