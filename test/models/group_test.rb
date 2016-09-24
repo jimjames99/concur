@@ -4,22 +4,17 @@ class GroupTest < ActiveSupport::TestCase
 
   test 'threadsafe Arel.count' do
 
-    Group.destroy_all
-    Group.create(name: 'New Name')
-    assert_equal 1, Group.count
+    group_count = Group.count
 
     group_counts = ThreadSafe::Array.new
     threads = []
-    10.times do |i|
+    1000.times do |i|
       threads[i] = Thread.new(i) do
-        c = Group.count
-        puts c
-        group_counts[i] = c
+        group_counts[i] = Group.count
       end
     end
     threads.each { |thread| thread.join }
-    puts group_counts.inspect
-    10.times { |i| assert_equal 1, group_counts[i] }
+    1000.times { |i| assert_equal group_count, group_counts[i], "actual count: #{group_count}, unexpected value: #{group_counts[i]}" }
 
   end
 
