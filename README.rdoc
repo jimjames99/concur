@@ -1,6 +1,3 @@
 == README
 
-Sample app to reproduce Arel#count issue with multithreading.
-
-
-* look at test/models/group_test.rb
+Sample app to assemble set of pdf page fragments into a single doc for a customer.

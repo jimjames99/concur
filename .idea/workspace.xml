@@ -1,11 +1,27 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="caa81b04-49b2-4265-ab1e-4cfe27184b3c" name="Default" comment="">
+    <list default="true" id="caa81b04-49b2-4265-ab1e-4cfe27184b3c" name="Default" comment="new demo for pdf assembler">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/assets/javascripts/page.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/assets/stylesheets/page.css.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/controllers/pdfs_controller.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/pdfs/_page.html.haml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/pdfs/new.html.haml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/assets/javascripts/sortable.js" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/models/group.rb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/db/migrate/20160922155039_add_groups.rb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/test/models/group_test.rb" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/.generators" afterPath="$PROJECT_DIR$/.idea/.generators" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/concur.iml" afterPath="$PROJECT_DIR$/.idea/concur.iml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Gemfile" afterPath="$PROJECT_DIR$/Gemfile" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Gemfile.lock" afterPath="$PROJECT_DIR$/Gemfile.lock" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README.rdoc" afterPath="$PROJECT_DIR$/README.rdoc" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/assets/javascripts/application.js" afterPath="$PROJECT_DIR$/app/assets/javascripts/application.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/layouts/application.html.erb" afterPath="$PROJECT_DIR$/app/views/layouts/application.html.erb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/routes.rb" afterPath="$PROJECT_DIR$/config/routes.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/db/schema.rb" afterPath="$PROJECT_DIR$/db/schema.rb" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/db/seeds.rb" afterPath="$PROJECT_DIR$/db/seeds.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/models/group_test.rb" afterPath="$PROJECT_DIR$/test/models/group_test.rb" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/test_helper.rb" afterPath="$PROJECT_DIR$/test/test_helper.rb" />
     </list>
     <ignored path="concur.iws" />
@@ -19,9 +35,10 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="CoverageDataManager">
+    <SUITE FILE_PATH="coverage/concur@Development__concur.coverage" NAME="Development: concur Coverage Results" MODIFIED="1476393062859" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="concur" />
     <SUITE FILE_PATH="coverage/concur@arel_thread_contention_should_calculate__concur.coverage" NAME="arel thread contention should calculate: concur Coverage Results" MODIFIED="1471894654226" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="concur" />
     <SUITE FILE_PATH="coverage/concur@db_migrate__concur.coverage" NAME="db:migrate: concur Coverage Results" MODIFIED="1474491594486" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="concur" />
-    <SUITE FILE_PATH="coverage/concur@Run_test__GroupTest___concur.coverage" NAME="Run test 'GroupTest': concur Coverage Results" MODIFIED="1474750191139" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="concur" />
+    <SUITE FILE_PATH="coverage/concur@Run_test__GroupTest___concur.coverage" NAME="Run test 'GroupTest': concur Coverage Results" MODIFIED="1474750495379" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="concur" />
     <SUITE FILE_PATH="coverage/concur@Rails_console__concur.coverage" NAME="Rails console: concur Coverage Results" MODIFIED="1474749507319" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="concur" />
   </component>
   <component name="CreatePatchCommitExecutor">
@@ -33,37 +50,138 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="group_test.rb" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/test/models/group_test.rb">
+      <file leaf-file-name="pdfs_controller.rb" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/controllers/pdfs_controller.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="357">
-              <caret line="21" column="0" lean-forward="true" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
+            <state relative-caret-position="85">
+              <caret line="5" column="22" lean-forward="true" selection-start-line="5" selection-start-column="22" selection-end-line="5" selection-end-column="22" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="test_helper.rb" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/test/test_helper.rb">
+      <file leaf-file-name="README.rdoc" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/README.rdoc">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="153">
-              <caret line="9" column="34" lean-forward="false" selection-start-line="9" selection-start-column="34" selection-end-line="9" selection-end-column="34" />
+            <state relative-caret-position="51">
+              <caret line="3" column="0" lean-forward="true" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="seeds.rb" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/db/seeds.rb">
+      <file leaf-file-name="new.html.haml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/views/pdfs/new.html.haml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="119">
-              <caret line="7" column="28" lean-forward="false" selection-start-line="7" selection-start-column="28" selection-end-line="7" selection-end-column="28" />
+            <state relative-caret-position="391">
+              <caret line="23" column="26" lean-forward="false" selection-start-line="23" selection-start-column="26" selection-end-line="23" selection-end-column="26" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="page.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/assets/javascripts/page.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="136">
+              <caret line="8" column="32" lean-forward="false" selection-start-line="8" selection-start-column="32" selection-end-line="8" selection-end-column="32" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="schema.rb" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/db/schema.rb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="221">
+              <caret line="13" column="0" lean-forward="false" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="routes.rb" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/config/routes.rb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="255">
+              <caret line="15" column="17" lean-forward="false" selection-start-line="15" selection-start-column="17" selection-end-line="15" selection-end-column="17" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="application.html.erb" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/views/layouts/application.html.erb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="221">
+              <caret line="13" column="42" lean-forward="false" selection-start-line="13" selection-start-column="42" selection-end-line="13" selection-end-column="42" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="sortable.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/vendor/assets/javascripts/sortable.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="187">
+              <caret line="11" column="13" lean-forward="false" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
+              <folding>
+                <element signature="n#!!doc" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="application.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/assets/javascripts/application.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="238">
+              <caret line="14" column="22" lean-forward="false" selection-start-line="14" selection-start-column="22" selection-end-line="14" selection-end-column="22" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Gemfile" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Gemfile">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="187">
+              <caret line="11" column="20" lean-forward="false" selection-start-line="11" selection-start-column="20" selection-end-line="11" selection-end-column="20" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="page.css.scss" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/page.css.scss">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="404">
+              <caret line="25" column="2" lean-forward="false" selection-start-line="25" selection-start-column="2" selection-end-line="25" selection-end-column="2" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="application.css" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/application.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="255">
+              <caret line="15" column="0" lean-forward="false" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
     </leaf>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>function (</find>
+      <find>/*  * HTML5 Sortable library  * https://github.com/voidberg/html5sortable  *  * Original code copyright 2012 Ali Farhadi.  * This version is mantained by Alexandru Badiu &lt;andu@ctrlz.ro&gt; &amp; Lukas Oppermann &lt;lukas@vea.re&gt;  * jQuery-independent implementation by Nazar Mokrynskyi &lt;nazar@mokrynskyi.com&gt;  *  * Released under the MIT license.  */ 'use strict'; /*  * variables global to the plugin  */ var dragging; var draggingHeight; var placeholders = []; var sortables = []; /**  * Get or set data on element  * @param {Element} element  * @param {string} key  * @param {*} value  * @return {*}  */ var _data = function(element, key, value) {   if (value === undefined) {     return element &amp;&amp; element.h5s &amp;&amp; element.h5s.data &amp;&amp; element.h5s.data[key];   } else {     element.h5s = element.h5s || {};     element.h5s.data = element.h5s.data || {};     element.h5s.data[key] = value;   } }; /**  * Remove data from element  * @param {Element} element  */ var _removeData = function(element) {   if (element.h5s) {     delete element.h5s.data;   } }; /**  * Cross-browser shortcut for actual `Element.matches` method,  * which has vendor prefix in older browsers  */ var matches; switch (true) {   case 'matches' in window.Element.prototype:     matches = 'matches';     break;   case 'mozMatchesSelector' in window.Element.prototype:     matches = 'mozMatchesSelector';     break;   case 'msMatchesSelector' in window.Element.prototype:     matches = 'msMatchesSelector';     break;   case 'webkitMatchesSelector' in window.Element.prototype:     matches = 'webkitMatchesSelector';     break; } /**  * Filter only wanted nodes  * @param {Array|NodeList} nodes  * @param {Array/string} wanted  * @returns {Array}  */ var _filter = function(nodes, wanted) {   if (!wanted) {     return Array.prototype.slice.call(nodes);   }   var result = [];   for (var i = 0; i &lt; nodes.length; ++i) {     if (typeof wanted === 'string' &amp;&amp; nodes[i][matches](wanted)) {       result.push(nodes[i]);     }     if (wanted.indexOf(nodes[i]) !== -1) {       result.push(nodes[i]);     }   }   return result; }; /**  * @param {Array|Element} element  * @param {Array|string} event  * @param {Function} callback  */ var _on = function(element, event, callback) {   if (element instanceof Array) {     for (var i = 0; i &lt; element.length; ++i) {       _on(element[i], event, callback);     }     return;   }   element.addEventListener(event, callback);   element.h5s = element.h5s || {};   element.h5s.events = element.h5s.events || {};   element.h5s.events[event] = callback; }; /**  * @param {Array|Element} element  * @param {Array|string} event  */ var _off = function(element, event) {   if (element instanceof Array) {     for (var i = 0; i &lt; element.length; ++i) {       _off(element[i], event);     }     return;   }   if (element.h5s &amp;&amp; element.h5s.events &amp;&amp; element.h5s.events[event]) {     element.removeEventListener(event, element.h5s.events[event]);     delete element.h5s.events[event];   } }; /**  * @param {Array|Element} element  * @param {string} attribute  * @param {*} value  */ var _attr = function(element, attribute, value) {   if (element instanceof Array) {     for (var i = 0; i &lt; element.length; ++i) {       _attr(element[i], attribute, value);     }     return;   }   element.setAttribute(attribute, value); }; /**  * @param {Array|Element} element  * @param {string} attribute  */ var _removeAttr = function(element, attribute) {   if (element instanceof Array) {     for (var i = 0; i &lt; element.length; ++i) {       _removeAttr(element[i], attribute);     }     return;   }   element.removeAttribute(attribute); }; /**  * @param {Element} element  * @returns {{left: *, top: *}}  */ var _offset = function(element) {   var rect = element.getClientRects()[0];   return {     left: rect.left + window.scrollX,     top: rect.top + window.scrollY   }; }; /*  * remove event handlers from items  * @param {Array|NodeList} items  */ var _removeItemEvents = function(items) {   _off(items, 'dragstart');   _off(items, 'dragend');   _off(items, 'selectstart');   _off(items, 'dragover');   _off(items, 'dragenter');   _off(items, 'drop'); }; /*  * Remove event handlers from sortable  * @param {Element} sortable a single sortable  */ var _removeSortableEvents = function(sortable) {   _off(sortable, 'dragover');   _off(sortable, 'dragenter');   _off(sortable, 'drop'); }; /*  * Attach ghost to dataTransfer object  * @param {Event} original event  * @param {object} ghost-object with item, x and y coordinates  */ var _attachGhost = function(event, ghost) {   // this needs to be set for HTML5 drag &amp; drop to work   event.dataTransfer.effectAllowed = 'move';   event.dataTransfer.setData('text', '');    // check if setDragImage method is available   if (event.dataTransfer.setDragImage) {     event.dataTransfer.setDragImage(ghost.draggedItem, ghost.x, ghost.y);   } }; /**  * _addGhostPos clones the dragged item and adds it as a Ghost item  * @param {Event} event - the event fired when dragstart is triggered  * @param {object} ghost - .draggedItem = Element  */ var _addGhostPos = function(event, ghost) {   if (!ghost.x) {     ghost.x = parseInt(event.pageX - _offset(ghost.draggedItem).left);   }   if (!ghost.y) {     ghost.y = parseInt(event.pageY - _offset(ghost.draggedItem).top);   }   return ghost; }; /**  * _makeGhost decides which way to make a ghost and passes it to attachGhost  * @param {Element} draggedItem - the item that the user drags  */ var _makeGhost = function(draggedItem) {   return {     draggedItem: draggedItem   }; }; /**  * _getGhost constructs ghost and attaches it to dataTransfer  * @param {Event} event - the original drag event object  * @param {Element} draggedItem - the item that the user drags  */ // TODO: could draggedItem be replaced by event.target in all instances var _getGhost = function(event, draggedItem) {   // add ghost item &amp; draggedItem to ghost object   var ghost = _makeGhost(draggedItem);   // attach ghost position   ghost = _addGhostPos(event, ghost);   // attach ghost to dataTransfer   _attachGhost(event, ghost); }; /*  * Remove data from sortable  * @param {Element} sortable a single sortable  */ var _removeSortableData = function(sortable) {   _removeData(sortable);   _removeAttr(sortable, 'aria-dropeffect'); }; /*  * Remove data from items  * @param {Array|Element} items  */ var _removeItemData = function(items) {   _removeAttr(items, 'aria-grabbed');   _removeAttr(items, 'draggable');   _removeAttr(items, 'role'); }; /*  * Check if two lists are connected  * @param {Element} curList  * @param {Element} destList  */ var _listsConnected = function(curList, destList) {   if (curList === destList) {     return true;   }   if (_data(curList, 'connectWith') !== undefined) {     return _data(curList, 'connectWith') === _data(destList, 'connectWith');   }   return false; }; var _getHandles = function(items, handle) {   var result = [];   var handles;   if (!handle) {     return items;   }   for (var i = 0; i &lt; items.length; ++i) {     handles = items[i].querySelectorAll(handle);     result = result.concat(Array.prototype.slice.call(handles));   }   return result; }; /*  * Destroy the sortable  * @param {Element} sortableElement a single sortable  */ var _destroySortable = function(sortableElement) {   var opts = _data(sortableElement, 'opts') || {};   var items = _filter(sortableElement.children, opts.items);   var handles = _getHandles(items, opts.handle);   // remove event handlers &amp; data from sortable   _removeSortableEvents(sortableElement);   _removeSortableData(sortableElement);   // remove event handlers &amp; data from items   _off(handles, 'mousedown');   _removeItemEvents(items);   _removeItemData(items); }; /*  * Enable the sortable  * @param {Element} sortableElement a single sortable  */ var _enableSortable = function(sortableElement) {   var opts = _data(sortableElement, 'opts');   var items = _filter(sortableElement.children, opts.items);   var handles = _getHandles(items, opts.handle);   _attr(sortableElement, 'aria-dropeffect', 'move');   _attr(handles, 'draggable', 'true');   // IE FIX for ghost   // can be disabled as it has the side effect that other events   // (e.g. click) will be ignored   var spanEl = (document || window.document).createElement('span');   if (typeof spanEl.dragDrop === 'function' &amp;&amp; !opts.disableIEFix) {     _on(handles, 'mousedown', function() {       if (items.indexOf(this) !== -1) {         this.dragDrop();       } else {         var parent = this.parentElement;         while (items.indexOf(parent) === -1) {           parent = parent.parentElement;         }         parent.dragDrop();       }     });   } }; /*  * Disable the sortable  * @param {Element} sortableElement a single sortable  */ var _disableSortable = function(sortableElement) {   var opts = _data(sortableElement, 'opts');   var items = _filter(sortableElement.children, opts.items);   var handles = _getHandles(items, opts.handle);   _attr(sortableElement, 'aria-dropeffect', 'none');   _attr(handles, 'draggable', 'false');   _off(handles, 'mousedown'); }; /*  * Reload the sortable  * @param {Element} sortableElement a single sortable  * @description events need to be removed to not be double bound  */ var _reloadSortable = function(sortableElement) {   var opts = _data(sortableElement, 'opts');   var items = _filter(sortableElement.children, opts.items);   var handles = _getHandles(items, opts.handle);   // remove event handlers from items   _removeItemEvents(items);   _off(handles, 'mousedown');   // remove event handlers from sortable   _removeSortableEvents(sortableElement); }; /**  * Get position of the element relatively to its sibling elements  * @param {Element} element  * @returns {number}  */ var _index = function(element) {   if (!element.parentElement) {     return 0;   }   return Array.prototype.indexOf.call(element.parentElement.children, element); }; /**  * Whether element is in DOM  * @param {Element} element  * @returns {boolean}  */ var _attached = function(element) {   return !!element.parentNode; }; /**  * Convert HTML string into DOM element  * @param {Element|string} html  * @returns {Element}  */ var _html2element = function(html) {   if (typeof html !== 'string') {     return html;   }   var div = document.createElement('div');   div.innerHTML	= html;   return div.firstChild; }; /**  * Insert before target  * @param {Element} target  * @param {Element} element  */ var _before = function(target, element) {   target.parentElement.insertBefore(     element,     target   ); }; /**  * Insert after target  * @param {Element} target  * @param {Element} element  */ var _after = function(target, element) {   target.parentElement.insertBefore(     element,     target.nextElementSibling   ); }; /**  * Detach element from DOM  * @param {Element} element  */ var _detach = function(element) {   if (element.parentNode) {     element.parentNode.removeChild(element);   } }; /**  * Make native event that can be dispatched afterwards  * @param {string} name  * @param {object} detail  * @returns {CustomEvent}  */ var _makeEvent = function(name, detail) {   var e = document.createEvent('Event');   if (detail) {     e.detail = detail;   }   e.initEvent(name, false, true);   return e; }; /**  * @param {Element} sortableElement  * @param {CustomEvent} event  */ var _dispatchEventOnConnected = function(sortableElement, event) {   sortables.forEach(function(target) {     if (_listsConnected(sortableElement, target)) {       target.dispatchEvent(event);     }   }); }; /*  * Public sortable object  * @param {Array|NodeList} sortableElements  * @param {object|string} options|method  */ var sortable = function(sortableElements, options) {    var method = String(options);    options = (function(options) {     var result = {       connectWith: false,       placeholder: null,       // dragImage can be null or a Element       dragImage: null,       disableIEFix: false,       placeholderClass: 'sortable-placeholder',       draggingClass: 'sortable-dragging',       hoverClass: false     };     for (var option in options) {       result[option] = options[option];     }     return result;   })(options);    if (typeof sortableElements === 'string') {     sortableElements = document.querySelectorAll(sortableElements);   }    if (sortableElements instanceof window.Element) {     sortableElements = [sortableElements];   }    sortableElements = Array.prototype.slice.call(sortableElements);    /* TODO: maxstatements should be 25, fix and remove line below */   /*jshint maxstatements:false */   sortableElements.forEach(function(sortableElement) {      if (/enable|disable|destroy/.test(method)) {       sortable[method](sortableElement);       return;     }      // get options &amp; set options on sortable     options = _data(sortableElement, 'opts') || options;     _data(sortableElement, 'opts', options);     // reset sortable     _reloadSortable(sortableElement);     // initialize     var items = _filter(sortableElement.children, options.items);     var index;     var startParent;     var placeholder = options.placeholder;     if (!placeholder) {       placeholder = document.createElement(         /^ul|ol$/i.test(sortableElement.tagName) ? 'li' : 'div'       );     }     placeholder = _html2element(placeholder);     placeholder.classList.add.apply(       placeholder.classList,       options.placeholderClass.split(' ')     );      // setup sortable ids     if (!sortableElement.getAttribute('data-sortable-id')) {       var id = sortables.length;       sortables[id] = sortableElement;       _attr(sortableElement, 'data-sortable-id', id);       _attr(items, 'data-item-sortable-id', id);     }      _data(sortableElement, 'items', options.items);     placeholders.push(placeholder);     if (options.connectWith) {       _data(sortableElement, 'connectWith', options.connectWith);     }      _enableSortable(sortableElement);     _attr(items, 'role', 'option');     _attr(items, 'aria-grabbed', 'false');      // Mouse over class     if (options.hoverClass) {       var hoverClass = 'sortable-over';       if (typeof options.hoverClass === 'string') {         hoverClass = options.hoverClass;       }        _on(items, 'mouseenter', function() {         this.classList.add(hoverClass);       });       _on(items, 'mouseleave', function() {         this.classList.remove(hoverClass);       });     }      // Handle drag events on draggable items     _on(items, 'dragstart', function(e) {       e.stopImmediatePropagation();        if (options.dragImage) {         _attachGhost(e, {           draggedItem: options.dragImage,           x: 0,           y: 0         });         console.log('WARNING: dragImage option is deprecated' +         ' and will be removed in the future!');       } else {         // add transparent clone or other ghost to cursor         _getGhost(e, this);       }       // cache selsection &amp; add attr for dragging       this.classList.add(options.draggingClass);       dragging = this;       _attr(dragging, 'aria-grabbed', 'true');       // grab values       index = _index(dragging);       draggingHeight = parseInt(window.getComputedStyle(dragging).height);       startParent = this.parentElement;       // dispatch sortstart event on each element in group       _dispatchEventOnConnected(sortableElement, _makeEvent('sortstart', {         item: dragging,         placeholder: placeholder,         startparent: startParent       }));     });     // Handle drag events on draggable items     _on(items, 'dragend', function() {       var newParent;       if (!dragging) {         return;       }       // remove dragging attributes and show item       dragging.classList.remove(options.draggingClass);       _attr(dragging, 'aria-grabbed', 'false');       dragging.style.display = dragging.oldDisplay;       delete dragging.oldDisplay;        placeholders.forEach(_detach);       newParent = this.parentElement;       _dispatchEventOnConnected(sortableElement, _makeEvent('sortstop', {         item: dragging,         startparent: startParent       }));       if (index !== _index(dragging) || startParent !== newParent) {         _dispatchEventOnConnected(sortableElement, _makeEvent('sortupdate', {           item: dragging,           index: _filter(newParent.children, _data(newParent, 'items'))             .indexOf(dragging),           oldindex: items.indexOf(dragging),           elementIndex: _index(dragging),           oldElementIndex: index,           startparent: startParent,           endparent: newParent         }));       }       dragging = null;       draggingHeight = null;     });     // Handle drop event on sortable &amp; placeholder     // TODO: REMOVE placeholder?????     _on([sortableElement, placeholder], 'drop', function(e) {       var visiblePlaceholder;       if (!_listsConnected(sortableElement, dragging.parentElement)) {         return;       }        e.preventDefault();       e.stopPropagation();       visiblePlaceholder = placeholders.filter(_attached)[0];       _after(visiblePlaceholder, dragging);       dragging.dispatchEvent(_makeEvent('dragend'));     });      // Handle dragover and dragenter events on draggable items     var onDragOverEnter = function(e) {       if (!_listsConnected(sortableElement, dragging.parentElement)) {         return;       }        e.preventDefault();       e.stopPropagation();       e.dataTransfer.dropEffect = 'move';       if (items.indexOf(this) !== -1) {         var thisHeight = parseInt(window.getComputedStyle(this).height);         var placeholderIndex = _index(placeholder);         var thisIndex = _index(this);         if (options.forcePlaceholderSize) {           placeholder.style.height = draggingHeight + 'px';         }          // Check if `this` is bigger than the draggable. If it is, we have to define a dead zone to prevent flickering         if (thisHeight &gt; draggingHeight) {           // Dead zone?           var deadZone = thisHeight - draggingHeight;           var offsetTop = _offset(this).top;           if (placeholderIndex &lt; thisIndex &amp;&amp;               e.pageY &lt; offsetTop + deadZone) {             return;           }           if (placeholderIndex &gt; thisIndex &amp;&amp;               e.pageY &gt; offsetTop + thisHeight - deadZone) {             return;           }         }          if (dragging.oldDisplay === undefined) {           dragging.oldDisplay = dragging.style.display;         }         dragging.style.display = 'none';         if (placeholderIndex &lt; thisIndex) {           _after(this, placeholder);         } else {           _before(this, placeholder);         }         // Intentionally violated chaining, it is more complex otherwise         placeholders           .filter(function(element) {return element !== placeholder;})           .forEach(_detach);       } else {         if (placeholders.indexOf(this) === -1 &amp;&amp;             !_filter(this.children, options.items).length) {           placeholders.forEach(_detach);           this.appendChild(placeholder);         }       }     };     _on(items.concat(sortableElement), 'dragover', onDragOverEnter);     _on(items.concat(sortableElement), 'dragenter', onDragOverEnter);   });    return sortableElements; };  sortable.destroy = function(sortableElement) {   _destroySortable(sortableElement); };  sortable.enable = function(sortableElement) {   _enableSortable(sortableElement); };  sortable.disable = function(sortableElement) {   _disableSortable(sortableElement); };  /* start-testing */ sortable.__testing = {   // add internal methods here for testing purposes   _data: _data,   _removeSortableEvents: _removeSortableEvents,   _removeItemEvents: _removeItemEvents,   _removeItemData: _removeItemData,   _removeSortableData: _removeSortableData,   _listsConnected: _listsConnected,   _attachGhost: _attachGhost,   _addGhostPos: _addGhostPos,   _getGhost: _getGhost,   _makeGhost: _makeGhost,   _index: _index,   _makeEvent: _makeEvent }; module.exports = sortable; /* end-testing */</find>
+      <find>moving</find>
+      <find>box-</find>
+      <find>group</find>
+    </findStrings>
   </component>
   <component name="GeneratorOptions">
     <option name="VCS_SHOW_CONFIRMATION" value="true" />
@@ -79,13 +197,24 @@
         <option value="$PROJECT_DIR$/db/migrate/20160822183043_add_posts.rb" />
         <option value="$PROJECT_DIR$/app/models/group.rb" />
         <option value="$PROJECT_DIR$/config/database.yml" />
-        <option value="$PROJECT_DIR$/Gemfile" />
         <option value="$PROJECT_DIR$/db/migrate/20160922155039_add_groups.rb" />
-        <option value="$PROJECT_DIR$/db/schema.rb" />
-        <option value="$PROJECT_DIR$/README.rdoc" />
-        <option value="$PROJECT_DIR$/test/test_helper.rb" />
-        <option value="$PROJECT_DIR$/db/seeds.rb" />
         <option value="$PROJECT_DIR$/test/models/group_test.rb" />
+        <option value="$PROJECT_DIR$/db/seeds.rb" />
+        <option value="$PROJECT_DIR$/test/test_helper.rb" />
+        <option value="$PROJECT_DIR$/app/assets/javascripts/sortable.js" />
+        <option value="$PROJECT_DIR$/app/views/pdfs/_page.html.haml" />
+        <option value="$PROJECT_DIR$/db/schema.rb" />
+        <option value="$PROJECT_DIR$/config/routes.rb" />
+        <option value="$PROJECT_DIR$/vendor/assets/javascripts/sortable.js" />
+        <option value="$PROJECT_DIR$/app/assets/javascripts/page.js.coffee" />
+        <option value="$PROJECT_DIR$/Gemfile" />
+        <option value="$PROJECT_DIR$/app/assets/stylesheets/page.css.scss" />
+        <option value="$PROJECT_DIR$/app/assets/javascripts/application.js" />
+        <option value="$PROJECT_DIR$/app/assets/javascripts/page.js" />
+        <option value="$PROJECT_DIR$/app/views/layouts/application.html.erb" />
+        <option value="$PROJECT_DIR$/app/views/pdfs/new.html.haml" />
+        <option value="$PROJECT_DIR$/app/controllers/pdfs_controller.rb" />
+        <option value="$PROJECT_DIR$/README.rdoc" />
       </list>
     </option>
   </component>
@@ -104,8 +233,8 @@
   </component>
   <component name="ProjectFrameBounds">
     <option name="y" value="23" />
-    <option name="width" value="1710" />
-    <option name="height" value="1321" />
+    <option name="width" value="1002" />
+    <option name="height" value="845" />
   </component>
   <component name="ProjectView">
     <navigator currentView="ProjectPane" proportions="" version="1">
@@ -122,9 +251,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
-      <pane id="Scratches" />
-      <pane id="RailsProjectView" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -137,50 +263,11 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="concur" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="concur" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="test" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="concur" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="concur" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="db" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="concur" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="concur" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
         </subPane>
       </pane>
+      <pane id="Scratches" />
+      <pane id="Scope" />
+      <pane id="RailsProjectView" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -190,8 +277,14 @@
     <property name="RailsGeneratorsPopup.hiddenIncluded" value="false" />
     <property name="RakeTaksPopup.undocumentedIncluded" value="false" />
     <property name="js.eslint.eslintPackage" value="" />
+    <property name="GO_FMT" value="false" />
   </component>
-  <component name="RunManager" selected="Test::Unit/Shoulda/Minitest.Run test 'GroupTest': concur">
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/vendor/assets/javascripts" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Rails.Development: concur">
     <configuration default="false" name="Rails console: concur" type="IrbRunConfigurationType" factoryName="IRB console" temporary="true">
       <module name="concur" />
       <IRB_RUN_CONFIG NAME="RUBY_ARGS" VALUE="-e $stdout.sync=true;$stderr.sync=true;load($0=ARGV.shift)" />
@@ -528,9 +621,9 @@
     <recent_temporary>
       <list size="4">
         <item index="0" class="java.lang.String" itemvalue="Test::Unit/Shoulda/Minitest.Run test 'GroupTest': concur" />
-        <item index="1" class="java.lang.String" itemvalue="IRB console.Rails console: concur" />
-        <item index="2" class="java.lang.String" itemvalue="Rake.db:migrate: concur" />
-        <item index="3" class="java.lang.String" itemvalue="Test::Unit/Shoulda/Minitest.arel thread contention should calculate: concur" />
+        <item index="1" class="java.lang.String" itemvalue="Rake.db:migrate: concur" />
+        <item index="2" class="java.lang.String" itemvalue="Test::Unit/Shoulda/Minitest.arel thread contention should calculate: concur" />
+        <item index="3" class="java.lang.String" itemvalue="IRB console.Rails console: concur" />
       </list>
     </recent_temporary>
   </component>
@@ -551,20 +644,27 @@
       <workItem from="1474477162236" duration="1008000" />
       <workItem from="1474479454101" duration="1615000" />
       <workItem from="1474490368987" duration="3247000" />
-      <workItem from="1474749447021" duration="650000" />
+      <workItem from="1474749447021" duration="1032000" />
+      <workItem from="1476290664641" duration="26366000" />
     </task>
+    <task id="LOCAL-00001" summary="fix test by adding seeds.">
+      <created>1474750234831</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1474750234831</updated>
+    </task>
+    <task id="LOCAL-00002" summary="fix test by adding seeds.">
+      <created>1474750570312</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1474750570312</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="Run_test_'GroupTest'__concur - 2016.09.24 at 16h 41m 32s.xml">
-      <configuration name="Run test 'GroupTest': concur" configurationId="TestUnitRunConfigurationType" />
-    </history-entry>
-    <history-entry file="Run_test_'GroupTest'__concur - 2016.09.24 at 16h 41m 56s.xml">
-      <configuration name="Run test 'GroupTest': concur" configurationId="TestUnitRunConfigurationType" />
-    </history-entry>
-    <history-entry file="Run_test_'GroupTest'__concur - 2016.09.24 at 16h 43m 03s.xml">
-      <configuration name="Run test 'GroupTest': concur" configurationId="TestUnitRunConfigurationType" />
-    </history-entry>
     <history-entry file="Run_test_'GroupTest'__concur - 2016.09.24 at 16h 44m 25s.xml">
       <configuration name="Run test 'GroupTest': concur" configurationId="TestUnitRunConfigurationType" />
     </history-entry>
@@ -586,21 +686,30 @@
     <history-entry file="Run_test_'GroupTest'__concur - 2016.09.24 at 16h 50m 00s.xml">
       <configuration name="Run test 'GroupTest': concur" configurationId="TestUnitRunConfigurationType" />
     </history-entry>
+    <history-entry file="Run_test_'GroupTest'__concur - 2016.09.24 at 16h 52m 00s.xml">
+      <configuration name="Run test 'GroupTest': concur" configurationId="TestUnitRunConfigurationType" />
+    </history-entry>
+    <history-entry file="Run_test_'GroupTest'__concur - 2016.09.24 at 16h 53m 22s.xml">
+      <configuration name="Run test 'GroupTest': concur" configurationId="TestUnitRunConfigurationType" />
+    </history-entry>
+    <history-entry file="Run_test_'GroupTest'__concur - 2016.09.24 at 16h 55m 30s.xml">
+      <configuration name="Run test 'GroupTest': concur" configurationId="TestUnitRunConfigurationType" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="11295000" />
+    <option name="totallyTimeSpent" value="38043000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1710" height="1321" extended-state="0" />
-    <editor active="true" />
+    <frame x="0" y="23" width="1002" height="845" extended-state="0" />
+    <editor active="false" />
     <layout>
       <window_info id="GfmBrowser" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.21702638" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.26041666" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32626426" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.53333336" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
@@ -629,11 +738,39 @@
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="fix test by adding seeds." />
+    <option name="LAST_COMMIT_MESSAGE" value="fix test by adding seeds." />
+  </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/test/models/group_test.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/test_helper.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" column="34" lean-forward="false" selection-start-line="9" selection-start-column="34" selection-end-line="9" selection-end-column="34" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/db/seeds.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="28" lean-forward="false" selection-start-line="7" selection-start-column="28" selection-end-line="7" selection-end-column="28" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/test/models/group_test.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -668,7 +805,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="68">
           <caret line="4" column="0" lean-forward="false" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -712,7 +848,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="68">
           <caret line="4" column="0" lean-forward="false" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -751,7 +886,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="68">
           <caret line="4" column="0" lean-forward="false" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -759,21 +893,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="476">
           <caret line="28" column="0" lean-forward="true" selection-start-line="28" selection-start-column="0" selection-end-line="28" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Gemfile">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="0" lean-forward="false" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/README.rdoc">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="0" lean-forward="true" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
         </state>
       </provider>
     </entry>
@@ -785,33 +904,148 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/db/schema.rb">
+    <entry file="file://$PROJECT_DIR$/test/models/group_test.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="13" column="51" lean-forward="false" selection-start-line="13" selection-start-column="51" selection-end-line="13" selection-end-column="51" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test/test_helper.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" column="34" lean-forward="false" selection-start-line="9" selection-start-column="34" selection-end-line="9" selection-end-column="34" />
+        <state relative-caret-position="408">
+          <caret line="24" column="0" lean-forward="false" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/db/seeds.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="28" lean-forward="false" selection-start-line="7" selection-start-column="28" selection-end-line="7" selection-end-column="28" />
+        <state relative-caret-position="136">
+          <caret line="8" column="0" lean-forward="true" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/test/models/group_test.rb">
+    <entry file="file://$PROJECT_DIR$/test/test_helper.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="21" column="0" lean-forward="true" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
+        <state relative-caret-position="153">
+          <caret line="9" column="2" lean-forward="false" selection-start-line="9" selection-start-column="2" selection-end-line="9" selection-end-column="2" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/db/schema.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="13" column="0" lean-forward="false" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/routes.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="15" column="17" lean-forward="false" selection-start-line="15" selection-start-column="17" selection-end-line="15" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/pdfs/_page.html.haml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/application.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="15" column="0" lean-forward="false" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/assets/javascripts/sortable.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" column="13" lean-forward="false" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/assets/javascripts/old_page.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="114">
+          <caret line="67" column="0" lean-forward="false" selection-start-line="67" selection-start-column="0" selection-end-line="67" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Gemfile">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" column="20" lean-forward="false" selection-start-line="11" selection-start-column="20" selection-end-line="11" selection-end-column="20" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/assets/javascripts/old2_page.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="29" lean-forward="false" selection-start-line="7" selection-start-column="29" selection-end-line="7" selection-end-column="29" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/page.css.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="404">
+          <caret line="25" column="2" lean-forward="false" selection-start-line="25" selection-start-column="2" selection-end-line="25" selection-end-column="2" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/assets/javascripts/application.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="14" column="22" lean-forward="false" selection-start-line="14" selection-start-column="22" selection-end-line="14" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/assets/javascripts/page.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="32" lean-forward="false" selection-start-line="8" selection-start-column="32" selection-end-line="8" selection-end-column="32" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/layouts/application.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="13" column="42" lean-forward="false" selection-start-line="13" selection-start-column="42" selection-end-line="13" selection-end-column="42" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/pdfs/new.html.haml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="391">
+          <caret line="23" column="26" lean-forward="false" selection-start-line="23" selection-start-column="26" selection-end-line="23" selection-end-column="26" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/controllers/pdfs_controller.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="22" lean-forward="true" selection-start-line="5" selection-start-column="22" selection-end-line="5" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.rdoc">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" column="0" lean-forward="true" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
           <folding />
         </state>
       </provider>

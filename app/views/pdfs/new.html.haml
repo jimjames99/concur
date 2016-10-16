@@ -1,0 +1,32 @@
+= form_tag pdfs_path do
+
+  .row
+    .col-sm-6
+
+
+      #source{class:'col-sm-6  box'}
+        .navbar
+          .navbar-header.bigger
+            Library
+        - @pages.each do |page|
+          %div{class: ['panel', 'panel-default item'], id: "#{page}"}
+            .panel-heading
+              %h3.panel-title
+                =page
+
+            .panel-body
+              some descriptive text here
+
+    .col-sm-6
+      .row
+        #dropbox{class:'col-sm-6 sortable box', sortable: 'true'}
+          .navbar
+            .navbar-header
+              Custom assembly for:
+              =text_field_tag :customer
+
+      .row
+      =hidden_field_tag :pages
+      =submit_tag 'Download assembled doc'
+
+
